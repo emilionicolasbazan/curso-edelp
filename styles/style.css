@@ -1,0 +1,72 @@
+html , #carouselExampleCaptions {
+	background-color: #ededed;
+}
+
+p , a , h2 , h3 {
+	font-family: 'Inter', sans-serif;
+}
+
+p {
+	font-size: 0.8rem;
+}
+
+h2 {
+	text-shadow: 1px 1px 1px black;
+	font-size: 3rem;
+}
+
+h3 {
+	font-size: 1.5rem;
+}
+
+
+i {
+	font-size: 3rem;
+}
+
+p {
+	text-align: justify;
+}
+
+p::selection {
+	color: white;
+	background: grey;
+} 
+
+h3 {
+	margin-top: 15px;
+}
+
+h3::selection {
+	color: white;
+	background: grey;
+} 
+
+h2::selection {
+	color: white;
+	background: grey;
+} 
+
+a {
+	font-size: 20px;
+	text-align: justify-all;
+	color: white;
+}
+
+a::selection {
+	color: white;
+	background: grey;
+} 
+
+nav , .card , .row {
+	background-color: #000000;
+}
+
+li {
+	color: white;
+}
+
+#footer {
+	background-color: #DE1D22;
+}
+
